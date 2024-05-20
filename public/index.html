@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khumari</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container flex bgblack">
+        <div class="right bggrey rounded">
+            <div class="header bggrey2">
+                <div class="head-content">
+                    <div class="search">
+                        <input type="search" placeholder="Search">
+                    </div>
+                    <div class="content">
+                        <h1>Khumari</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Aliquam repellat incidunt explicabo,
+                            iusto nesciunt sapiente! Ipsa rem commodi atque veniam, harum alias, <br> perspiciatis dolore,
+                            quod odio magnam voluptate facere recusandae!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="playlists">
+                <h1>Moods</h1>
+                <div class="cardcontainer">
+                    <div class="card bggrey2" style="background-color: rgba(251, 245, 152,1);">
+                        <a href="delight.html">Delight</a>
+                    </div>
+                    <div class="card bggrey2" style="background-color: rgba(183, 146, 209,1);">
+                        <a href="#">Longing</a>
+                    </div>
+                    <div class="card bggrey2" style="background-color: rgba(183, 146, 209,1);">
+                        <a href="">Tensed</a>
+                    </div>
+                    <div class="card bggrey2" style="background-color: rgba(174, 219, 253, 1);">
+                        <a href="">Calm</a>
+                    </div>
+                    <div class="card bggrey2" style="background-color: rgba(111, 105, 198, 1);">
+                        <a href="">Romantic</a>
+                    </div>
+                    <div class="card bggrey2" style="background-color: rgba(234, 129, 122,1);">
+                        <a href="">Tensed</a>
+                    </div>
+                </div>
+                <div class="songlist">
+                    <ul id="playlist"></ul>
+                </div>
+                <div class="playbar">
+                    <div class="playing">Now Playing - <b><span class="song-name"></span></b></div>
+                    <div class="controls">
+                        <button class="btn previous"><i class="ph ph-skip-back"></i></button>
+                        <button class="btn play-pause"><i id="play-pause-icon" class="ph ph-play"></i></button>
+                        <button class="btn next"><i class="ph ph-skip-forward"></i></button>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
